@@ -54,13 +54,14 @@ I describe my thought process in approaching the "Business Problems" below:
 * Did not split by Season (i.e. winter vs summer) to get an overall picture
 
 ### Geographical Participation in the Olympics
-* I first checked the no. of countries that had participated over time
+I first checked the no. of countries that had participated over time
 * This was done by plotting a line chart (i.e. time series)
 * I could see that as of 2016, there were 200+ countries, which would make subsequent visualisations regarding proportion very messy due to the small proportions per country
 * Tracking each of the 200+ countries' participation over time would also not be meaningful, and result in a chart with 200+ lines, making it hard to read
 
-* Given there were 200+ countries, I decided to narrow my focus to the most recent Olympic data in the dataset, as people would be more interested in the latest situation
-* I also decided to narrow my focus to visualise the top N countries to see who were the main contenders
+I decided to narrow my focus to the most recent Olympic data in the dataset
+* Assumption: People would be more interested in the latest situation than the participation of 200+ countries over time
+* Given the huge number of countries participating in recent times, I decided to narrow my focus to visualise the top N countries to see who were the main contenders
 * For further improvement to make use of all the data and to give a fuller picture of the situation, it would be ideal to use geospatial data packages in subsequent iterations (e.g. Kepler GL, geopandas)
 
 ### Countries that Dominate the Olympics
